@@ -1,0 +1,936 @@
+fileFormatVersion: 2
+guid: 520a2298844402a4fb097c4e1b5e4466
+timeCreated: 1516614270
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: number1_orange_0
+    21300002: number1_orange_1
+    21300004: number1_orange_2
+    21300006: number1_orange_3
+    21300008: number1_orange_4
+    21300010: number1_orange_5
+    21300012: number1_orange_6
+    21300014: number1_orange_7
+    21300016: number1_orange_8
+    21300018: number1_orange_9
+    21300020: number2_orange_0
+    21300022: number2_orange_1
+    21300024: number2_orange_2
+    21300026: number2_orange_3
+    21300028: number2_orange_4
+    21300030: number2_orange_5
+    21300032: number2_orange_6
+    21300034: number2_orange_7
+    21300036: number2_orange_8
+    21300038: number2_orange_9
+    21300040: number3_orange_0
+    21300042: number3_orange_1
+    21300044: number3_orange_2
+    21300046: number3_orange_3
+    21300048: number3_orange_4
+    21300050: number3_orange_5
+    21300052: number3_orange_6
+    21300054: number3_orange_7
+    21300056: number3_orange_8
+    21300058: number3_orange_9
+    21300060: number4_orange_0
+    21300062: number4_orange_1
+    21300064: number4_orange_2
+    21300066: number4_orange_3
+    21300068: number4_orange_4
+    21300070: number4_orange_5
+    21300072: number4_orange_6
+    21300074: number4_orange_7
+    21300076: number4_orange_8
+    21300078: number4_orange_9
+    21300080: switchbutton_label_off_orange
+    21300082: switchbutton_label_on_orange
+    21300084: tip_bonustime2_orange
+    21300086: tip_bonustime_orange
+    21300088: tip_combo_orange
+    21300090: tip_complete_orange
+    21300092: tip_gameover2_orange
+    21300094: tip_gameover_orange
+    21300096: tip_go_orange
+    21300098: tip_good_orange
+    21300100: tip_great_orange
+    21300102: tip_levelup2_orange
+    21300104: tip_levelup_orange
+    21300106: tip_perfect_orange
+    21300108: tip_ready_orange
+    21300110: tip_readygo2_orange
+    21300112: tip_readygo_orange
+    21300114: tip_start_orange
+    21300116: tip_youfail2_orange
+    21300118: tip_youfail_orange
+    21300120: tip_youwin2_orange
+    21300122: tip_youwin_orange
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: number1_orange_0
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 719
+        width: 66
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number1_orange_1
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 1285
+        width: 47
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number1_orange_2
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1604
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number1_orange_3
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1178
+        width: 67
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number1_orange_4
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 711
+        width: 72
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number1_orange_5
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1854
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number1_orange_6
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1756
+        width: 68
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number1_orange_7
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 8
+        width: 66
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number1_orange_8
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 817
+        width: 66
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number1_orange_9
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 411
+        width: 67
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number2_orange_0
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 104
+        width: 67
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number2_orange_1
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1042
+        width: 47
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number2_orange_2
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1951
+        width: 69
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number2_orange_3
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 915
+        width: 68
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number2_orange_4
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 808
+        width: 73
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number2_orange_5
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 303
+        width: 68
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number2_orange_6
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 610
+        width: 69
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number2_orange_7
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 205
+        width: 67
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number2_orange_8
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1077
+        width: 67
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number2_orange_9
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 509
+        width: 68
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number3_orange_0
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 59
+        width: 81
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number3_orange_1
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 1382
+        width: 62
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number3_orange_2
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 523
+        width: 83
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number3_orange_3
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 907
+        width: 82
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number3_orange_4
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 523
+        width: 87
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number3_orange_5
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1593
+        width: 82
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number3_orange_6
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 281
+        width: 83
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number3_orange_7
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 168
+        width: 81
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number3_orange_8
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 907
+        width: 81
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number3_orange_9
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1701
+        width: 82
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number4_orange_0
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1816
+        width: 81
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number4_orange_1
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 1490
+        width: 62
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number4_orange_2
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 517
+        width: 83
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number4_orange_3
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 275
+        width: 82
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number4_orange_4
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 902
+        width: 87
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number4_orange_5
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1551
+        width: 82
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number4_orange_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 901
+        width: 83
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number4_orange_7
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 403
+        width: 81
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number4_orange_8
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 1701
+        width: 81
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: number4_orange_9
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 516
+        width: 82
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: switchbutton_label_off_orange
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1017
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: switchbutton_label_on_orange
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1526
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tip_bonustime2_orange
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 510
+        width: 378
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tip_bonustime_orange
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1931
+        width: 720
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tip_combo_orange
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 899
+        width: 421
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tip_complete_orange
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1521
+        width: 586
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tip_gameover2_orange
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 18
+        width: 342
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tip_gameover_orange
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1810
+        width: 679
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tip_go_orange
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 270
+        width: 210
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tip_good_orange
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 23
+        width: 354
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tip_great_orange
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 354
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tip_levelup2_orange
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 631
+        width: 308
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tip_levelup_orange
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1379
+        width: 537
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tip_perfect_orange
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1020
+        width: 444
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tip_ready_orange
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 755
+        width: 398
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tip_readygo2_orange
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 265
+        width: 368
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tip_readygo_orange
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1665
+        width: 597
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tip_start_orange
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 390
+        width: 316
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tip_youfail2_orange
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1276
+        width: 252
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tip_youfail_orange
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1141
+        width: 504
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tip_youwin2_orange
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1016
+        width: 267
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tip_youwin_orange
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1260
+        width: 516
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

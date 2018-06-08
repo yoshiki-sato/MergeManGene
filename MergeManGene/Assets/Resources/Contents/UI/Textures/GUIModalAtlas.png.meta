@@ -1,0 +1,593 @@
+fileFormatVersion: 2
+guid: 2054be45e699b3543916c129dd70742d
+timeCreated: 1516616370
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: checkbox_background2
+    21300002: checkbox_foreground2_orange
+    21300004: dialog_background1
+    21300006: dialog_background2
+    21300008: dialog_background3
+    21300010: dialog_foreground1
+    21300012: dialog_foreground1_2
+    21300014: dialog_foreground2
+    21300016: dialog_foreground2_2
+    21300018: dialog_foreground3
+    21300020: dialog_foreground3_2
+    21300022: dialog_foreground4
+    21300024: dialog_foreground4_2
+    21300026: dialog_foreground5
+    21300028: dialog_foreground5_2
+    21300030: dialog_foreground6
+    21300032: dialog_foreground6_2
+    21300034: dialog_foreground7
+    21300036: dialog_foreground7_2
+    21300038: indicator_background3
+    21300040: indicator_background4
+    21300042: indicator_foreground3_orange
+    21300044: indicator_foreground4_orange
+    21300046: item_selectbar1_background2
+    21300048: item_selectbar2_background2
+    21300050: item_selectbar_foreground2_orange
+    21300052: progressbar_background2
+    21300054: progressbar_foreground2_orange
+    21300056: slider_button2_orange
+    21300058: slider_horizontal_background2
+    21300060: slider_vertical_foreground2_orange
+    21300062: switchbutton_background2
+    21300064: switchbutton_foreground2_orange
+    21300066: title_orange2
+    21300068: title_orange2_achievement
+    21300070: title_orange2_level
+    21300072: title_orange2_level_select
+    21300074: title_orange2_loading
+    21300076: title_orange2_login
+    21300078: title_orange2_mission
+    21300080: title_orange2_paused
+    21300082: title_orange2_setting
+    21300084: title_orange2_shop
+    21300086: title_orange2_upgrade
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: checkbox_background2
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 1070
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: checkbox_foreground2_orange
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 4
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dialog_background1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1526
+        width: 725
+        height: 522
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dialog_background2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1072
+        width: 609
+        height: 452
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dialog_background3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 413
+        width: 609
+        height: 657
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dialog_foreground1_2
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 888
+        width: 480
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dialog_foreground2_2
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 529
+        width: 480
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dialog_foreground3_2
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 732
+        width: 480
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dialog_foreground4_2
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 293
+        width: 484
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dialog_foreground5_2
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 442
+        width: 328
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dialog_foreground6_2
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 1314
+        width: 206
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dialog_foreground7_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 267
+        width: 601
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: indicator_background3
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 132
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: indicator_background4
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 1026
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: indicator_foreground3_orange
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 15
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: indicator_foreground4_orange
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 10
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: item_selectbar1_background2
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 376
+        width: 247
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: item_selectbar2_background2
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 1237
+        width: 204
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: item_selectbar_foreground2_orange
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 125
+        width: 177
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: progressbar_background2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 39
+        width: 596
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: progressbar_foreground2_orange
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 78
+        width: 558
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: slider_button2_orange
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 1124
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: slider_horizontal_background2
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 134
+        width: 253
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: slider_vertical_foreground2_orange
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 800
+        width: 18
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: switchbutton_background2
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 1179
+        width: 165
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: switchbutton_foreground2_orange
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 78
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_orange2
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1684
+        width: 274
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_orange2_achievement
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 2
+        width: 274
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_orange2_level
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 2
+        width: 274
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_orange2_level_select
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 2
+        width: 274
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_orange2_loading
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1532
+        width: 274
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_orange2_login
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 1684
+        width: 274
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_orange2_mission
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 1532
+        width: 274
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_orange2_paused
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 453
+        width: 274
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_orange2_setting
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 1608
+        width: 274
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_orange2_shop
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1608
+        width: 274
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_orange2_upgrade
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 1771
+        width: 274
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
