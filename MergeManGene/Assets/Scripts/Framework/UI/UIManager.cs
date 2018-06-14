@@ -21,8 +21,8 @@ namespace MergeManGene
     public partial class ResourcePath
     {
 
-        ///// <summary>モーダル全般の親パス</summary>
-        //public const string MODAL_PATH = "Contents/UI/Modal/Prefabs/";
+        /// <summary>モーダル全般の親パス</summary>
+        public const string MODAL_PATH = "Contents/UI/Modal/Prefabs/";
 
     }
 

@@ -22,9 +22,9 @@ namespace MergeManGene
 		#endregion
 
 		//オーディオ環境
-		//[SerializeField]
-		//private AudioManager audioManager;
-		//public AudioManager m_audioManager { get { return audioManager; } }
+		[SerializeField]
+		private AudioManager audioManager;
+		public AudioManager m_audioManager { get { return audioManager; } }
 
 		//フェード環境
 		[SerializeField]
@@ -46,9 +46,9 @@ namespace MergeManGene
 			}
 
 			#region NULLチェック
-			//if (m_audioManager == null) {
-			//	Debug.LogError("[ToyBox]<color=red>AudioManager</color>が設定されていません");
-			//}
+			if (m_audioManager == null) {
+				Debug.LogError("[ToyBox]<color=red>AudioManager</color>が設定されていません");
+			}
 
 			if (m_fade == null) {
 				Debug.LogError("[ToyBox]<color=red>Fade</color>が設定されていません");
@@ -61,7 +61,7 @@ namespace MergeManGene
 
 			DontDestroyOnLoad(this.gameObject);
             
-			m_timeManager.Initialize();
+            m_timeManager.Initialize();
 
 			m_fade.Initialize();
 
