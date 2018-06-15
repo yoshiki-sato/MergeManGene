@@ -21,6 +21,8 @@ GameObject:
   - component: {fileID: 4256343224979408}
   - component: {fileID: 61517468438653864}
   - component: {fileID: 114299575564783060}
+  - component: {fileID: 114327206824704308}
+  - component: {fileID: 114073252509685050}
   m_Layer: 24
   m_Name: HandCancelArea
   m_TagString: Untagged
@@ -66,6 +68,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.5, y: 3}
   m_EdgeRadius: 0
+--- !u!114 &114073252509685050
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1478191513254638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 112998890, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _guid: a652a5f4-2f47-4213-a56e-f4b383ec9b89
 --- !u!114 &114299575564783060
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -78,3 +92,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_num_depth: 
+--- !u!114 &114327206824704308
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1478191513254638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605777808, guid: 325c5b2a7434372429c2ca9d61dba58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isConnected: 1
+  _guid: 
+  _referenceCollection:
+    _collection:
+    - {fileID: 1478191513254638}
+  _assetGuid: b00936e9540ecfb48b07d1e5ac1a2bef
