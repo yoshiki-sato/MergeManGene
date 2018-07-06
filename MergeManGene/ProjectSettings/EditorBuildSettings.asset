@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/StartUpScene.unity
+    path: Assets/Scenes/SandBox/Yoshiki/StartUpScene.unity
     guid: ff6a6905656ad2043bb076697b35b802
   - enabled: 1
-    path: Assets/Scenes/SandBox/YOSHIKI.unity
+    path: Assets/Scenes/SandBox/Yoshiki/YOSHIKI.unity
     guid: aba4e93028e8d744cb1bf7811c30d7d4
