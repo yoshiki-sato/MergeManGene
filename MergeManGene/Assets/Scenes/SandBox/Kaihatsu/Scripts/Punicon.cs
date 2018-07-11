@@ -23,10 +23,13 @@ public class Punicon : MonoBehaviour
 
     private Rigidbody2D m_rigidbody2D;
 
+    private SpriteRenderer m_spriteRenderer;
+
+    private Animator m_animator;
+
     /// <summary>
     /// 仮想インプット領域
     /// </summary>
-
 
     /// <summary>
     /// プレイヤーの移動状態
@@ -156,18 +159,17 @@ public class Punicon : MonoBehaviour
     private void Start()
     {
         m_rigidbody2D = GetComponent<Rigidbody2D>();
+        m_spriteRenderer = GetComponent<SpriteRenderer>();
+        m_animator = GetComponent<Animator>();
+        
     }
 
-    private void Update()
-    {
-        if (State == TouchState.Started)
-        {
+    private void Update(){
+        if (State == TouchState.Started){
+            
             m_info.screenPoint = Position;
             m_info.deltaScreenPoint = Vector2.zero;
-            if (started != null)
-            {
-                started(m_info);
-            }
+            if (started != null){ started(m_info); }
 
             m_dragflg = true;
             // Debug.Log("Start");
@@ -178,6 +180,8 @@ public class Punicon : MonoBehaviour
             m_info.deltaScreenPoint = Position - m_info.screenPoint;
             m_info.screenPoint = Position;
 
+            m_animator.Play("Run");
+
             if (moved != null){ moved(m_info); }
 
             //タッチ方向で移動向き変更
@@ -185,6 +189,8 @@ public class Punicon : MonoBehaviour
             if (m_info.deltaScreenPoint.x < 0) { movestate = MoveState.left; }
         }
         else if (State == TouchState.Ended){
+
+            m_animator.Play("Idle");
 
             //終了地点を渡す
             m_dragEndPoint = m_info.deltaScreenPoint;
@@ -208,12 +214,14 @@ public class Punicon : MonoBehaviour
 
     void PlayerMove()
     {      
-        if (movestate == MoveState.right){ transform.position += new Vector3(m_moveSpeed, 0,0);}
-        if (movestate == MoveState.left) {transform.position += new Vector3(-m_moveSpeed, 0, 0);}
-    }
-
-    void OnTriggerEnter2D(Collider2D col){
-            Debug.Log(col.gameObject.tag);
+        if (movestate == MoveState.right){
+            m_spriteRenderer.flipX = false; 
+            transform.position += new Vector3(m_moveSpeed, 0,0);
+        }
+        if (movestate == MoveState.left) {
+            m_spriteRenderer.flipX = true;
+            transform.position += new Vector3(-m_moveSpeed, 0, 0);
+        }
     }
 }
     

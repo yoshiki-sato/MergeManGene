@@ -114,7 +114,6 @@ public class ExtendHook : MonoBehaviour
 
         switch (colGameObject.tag)
         {
-
             //壁にあたったらそのまま移動
             case "Wall":
                 target.transform.position = Vector3.MoveTowards(target.transform.position, hitPosition, 0.5f);
