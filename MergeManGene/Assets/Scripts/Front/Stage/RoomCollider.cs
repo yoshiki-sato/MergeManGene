@@ -20,6 +20,7 @@ namespace MargeManGene {
 			if(arg_col.gameObject.tag == "Player")
             {
                 CPController.flg_hoge = true;
+                CPController.num_id = m_roomId;
             }
 
         }
