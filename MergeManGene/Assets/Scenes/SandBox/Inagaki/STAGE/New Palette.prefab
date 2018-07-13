@@ -76,7 +76,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &114008317808434974
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 11
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1189065890235456}
@@ -88,7 +88,7 @@ MonoBehaviour:
   _guid: e81ccfe1-7477-4878-8d89-40d270587b58
 --- !u!114 &114214714019289420
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 11
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1189065890235456}
