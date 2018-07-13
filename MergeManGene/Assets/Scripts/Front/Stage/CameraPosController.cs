@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using ToyBox;
 
 namespace MargeManGene
 {
@@ -45,7 +44,7 @@ namespace MargeManGene
             public AnimationCurve cur_move;
             //何フレーム使用して移動するか
             public int num_complateFrame;
-            //実際に向かう座標(GameObjectで指定する事を想定しているので、Transformで指定している)
+            //実際に向かう座標(GameObjectで指定する事を想定しmているので、Transformで指定している)
             public Transform pos_target;
             //こっちで直打ちでもいいよ？
             public Vector2 vec_target;
@@ -69,7 +68,7 @@ namespace MargeManGene
         public bool flg_hoge;
 		
         // Use this for initialization
-        void Awake()
+        private void Start()
         {
             
             //カメラが何も入っていなければ、MainCameraを取得する
@@ -84,7 +83,7 @@ namespace MargeManGene
         }
 
         // Update is called once per frame
-        void Update()
+        private void Update()
         {
             //isHomingModeとisComplateがtrueなら、カメラをターゲットの位置に固定する
             if (m_flg_homingMode && m_flg_complate)

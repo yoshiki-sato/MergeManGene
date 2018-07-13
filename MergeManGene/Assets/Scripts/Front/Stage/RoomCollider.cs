@@ -5,33 +5,25 @@ using UnityEngine;
 namespace MargeManGene {
 	public class RoomCollider : MonoBehaviour {
 
-		[HideInInspector]
-		public uint m_roomId;
+		[SerializeField]
+		private int m_roomId;
 
-		[HideInInspector]
-		public uint m_prevRoomId;
+        private CameraPosController CPController; 
 
-		//コールバック
-		private System.Action<uint> CallBack;
+		private void Start()
+        {
+            CPController = FindObjectOfType<CameraPosController>();
+        }
+        
+		private void OnTriggerEnter2D(Collider2D arg_col)
+        {
+			if(arg_col.gameObject.tag == "Player")
+            {
+                CPController.flg_hoge = true;
+            }
 
-		/// <summary>
-		/// 初期化
-		/// </summary>
-		/// <param name="arg_action">通知用関数インスタンス</param>
-		public void Initialize(System.Action<uint> arg_callBack) {
-			CallBack = arg_callBack;
-		}
+        }
 
-		/// <summary>
-		/// Stageへ通知を送る
-		/// </summary>
-		/// <param name="arg_col"></param>
-		void OnTriggerEnter2D(Collider2D arg_col) {
-			if (arg_col.gameObject.layer == LayerMask.NameToLayer("Player")) {
-				CallBack(m_prevRoomId);
-			}
-		}
-
-	}
+    }
 
 }
