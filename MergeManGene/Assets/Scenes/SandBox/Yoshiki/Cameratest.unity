@@ -257,12 +257,35 @@ MonoBehaviour:
   m_GameObject: {fileID: 998731227}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 816ffccd02e253d4398d3105ef0db1ae, type: 3}
+  m_Script: {fileID: 11500000, guid: 05dcff242c2c4974aa347a1064e5de4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_obj_camera: {fileID: 1426191826}
   m_obj_cameraTarget: {fileID: 786792367}
   m_str_cameraStatus:
+  - cur_move:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    num_complateFrame: 60
+    pos_target: {fileID: 0}
+    vec_target: {x: 0, y: 0}
+    num_scale: 5
+    flg_isPlayerActive: 1
   - cur_move:
       serializedVersion: 2
       m_Curve:
@@ -309,8 +332,8 @@ MonoBehaviour:
     vec_target: {x: 5, y: 0}
     num_scale: 5
     flg_isPlayerActive: 1
-  num_id: 1
-  m_flg_homingMode: 0
+  num_id: 2
+  m_flg_homingMode: 1
   flg_hoge: 0
 --- !u!4 &998731229
 Transform:
@@ -333,8 +356,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1203876155}
-  - component: {fileID: 1203876154}
   - component: {fileID: 1203876153}
+  - component: {fileID: 1203876154}
   m_Layer: 0
   m_Name: RoomColider2
   m_TagString: Untagged
@@ -367,11 +390,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1203876152}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2636aac19ad29134e8013844ce001492, type: 3}
+  m_Script: {fileID: 11500000, guid: 7759bdc69e60a364bb8ecb7b69d08298, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_roomId: 2
-  CPController: {fileID: 0}
 --- !u!4 &1203876155
 Transform:
   m_ObjectHideFlags: 0
@@ -474,8 +496,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1437623054}
-  - component: {fileID: 1437623053}
   - component: {fileID: 1437623052}
+  - component: {fileID: 1437623053}
   m_Layer: 0
   m_Name: RoomColider
   m_TagString: Untagged
@@ -508,11 +530,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1437623051}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2636aac19ad29134e8013844ce001492, type: 3}
+  m_Script: {fileID: 11500000, guid: 7759bdc69e60a364bb8ecb7b69d08298, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_roomId: 1
-  CPController: {fileID: 998731228}
 --- !u!4 &1437623054
 Transform:
   m_ObjectHideFlags: 0
