@@ -35,12 +35,19 @@ public class ExtendHook : MonoBehaviour
     [SerializeField]
     private float m_extendSpeed;
 
+    public AudioClip m_extendSE;
+
+    private AudioSource m_audioSource;
+
 
 
     void Start()
     {
         m_linerendrer = GetComponent<LineRenderer>();
         m_hogeState = HogeState.def;
+
+        m_audioSource = gameObject.GetComponent<AudioSource>();
+        m_audioSource.clip = m_extendSE;
     }
 
     void Update()
@@ -106,6 +113,10 @@ public class ExtendHook : MonoBehaviour
 
         //向いている方向に向かって移動
         transform.position += angleVec * Time.deltaTime;
+
+        if (!m_audioSource.isPlaying){
+            m_audioSource.Play();
+        }
     }
 
     //フック収縮
