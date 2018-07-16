@@ -27,6 +27,10 @@ public class Punicon : MonoBehaviour
 
     private Animator m_animator;
 
+    public AudioClip m_audioClip;
+
+    private AudioSource m_audioSource;
+
     /// <summary>
     /// 仮想インプット領域
     /// </summary>
@@ -161,10 +165,14 @@ public class Punicon : MonoBehaviour
         m_rigidbody2D = GetComponent<Rigidbody2D>();
         m_spriteRenderer = GetComponent<SpriteRenderer>();
         m_animator = GetComponent<Animator>();
-        
+
+        m_audioSource = gameObject.GetComponent<AudioSource>();
+        m_audioSource.clip = m_audioClip;
+
     }
 
     private void Update(){
+
         if (State == TouchState.Started){
             
             m_info.screenPoint = Position;
@@ -180,6 +188,11 @@ public class Punicon : MonoBehaviour
             m_info.deltaScreenPoint = Position - m_info.screenPoint;
             m_info.screenPoint = Position;
 
+            //ＳＥが鳴ってなければならす
+            if (!m_audioSource.isPlaying){
+                PlaySE();
+            }
+
             m_animator.Play("Run");
 
             if (moved != null){ moved(m_info); }
@@ -191,6 +204,9 @@ public class Punicon : MonoBehaviour
         else if (State == TouchState.Ended){
 
             m_animator.Play("Idle");
+
+            //音ストップ
+            StopSE();
 
             //終了地点を渡す
             m_dragEndPoint = m_info.deltaScreenPoint;
@@ -222,6 +238,16 @@ public class Punicon : MonoBehaviour
             m_spriteRenderer.flipX = true;
             transform.position += new Vector3(-m_moveSpeed, 0, 0);
         }
+    }
+
+    //音鳴らす
+    void PlaySE(){
+        m_audioSource.Play();
+    }
+
+    //音を止める
+    void StopSE(){
+        m_audioSource.Stop();
     }
 }
     
