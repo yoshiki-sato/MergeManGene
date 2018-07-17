@@ -249,6 +249,13 @@ public class Punicon : MonoBehaviour
     void StopSE(){
         m_audioSource.Stop();
     }
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "BlackHand"){
+            transform.position += new Vector3(-1f,1,0);
+            //m_rigidbody2D.AddForce(new Vector2(-2f, 2f), ForceMode2D.Impulse);
+        }
+    }
 }
     
 
