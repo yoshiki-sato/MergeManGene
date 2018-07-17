@@ -7,7 +7,8 @@ public class TutoSignUp : MonoBehaviour {
     [SerializeField]
     private Camera m_camera;
 
-    public GameObject m_tutoSprite;
+    //注意記号
+    public GameObject m_cautionSprite;
     private GameObject m_sprite;
 
     private bool m_Displaying;
@@ -20,18 +21,22 @@ public class TutoSignUp : MonoBehaviour {
     }
 
     //オブジェクトが触れている間
-    void OnTriggerEnter2D()
+    void OnTriggerEnter2D(Collider2D arg_col)
     {
-        Debug.Log("呼ばれた");
-        if (m_Displaying){
-            m_sprite = Instantiate(m_tutoSprite);
-            m_sprite.transform.position = m_spritePosition;
-            m_Displaying = false;
+        if (arg_col.tag == "Player")
+        {
+            Debug.Log("呼ばれた");
+            if (m_Displaying)
+            {
+                m_sprite = Instantiate(m_cautionSprite);
+                m_sprite.transform.position = m_spritePosition;
+                m_Displaying = false;
+            }
         }
 
     }
 
-    //オブジェクトが触れている間
+    //オブジェクトが離れている間
     void OnTriggerExit2D(){
         if (!m_Displaying){
             Destroy(m_sprite);
