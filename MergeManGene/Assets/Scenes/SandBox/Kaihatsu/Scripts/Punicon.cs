@@ -10,7 +10,7 @@ using UnityEngine;
 /// </summary>
 public class Punicon : MonoBehaviour
 {
-    [SerializeField][Range(0.01f,0.05f)]
+    [SerializeField][Range(0.05f,0.1f)]
     private float m_moveSpeed;
 
     /// <summary>ドラッグ終了地点 </summary>
