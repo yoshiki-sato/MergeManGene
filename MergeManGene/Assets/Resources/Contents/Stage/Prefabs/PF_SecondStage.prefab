@@ -2146,13 +2146,13 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4177759692533116}
-  - component: {fileID: 61048456960956752}
   - component: {fileID: 114289837668102354}
   - component: {fileID: 114435348000225452}
   - component: {fileID: 114605900114764996}
-  - component: {fileID: 114339237773188158}
   - component: {fileID: 114896800084635194}
   - component: {fileID: 114350050629988166}
+  - component: {fileID: 114440522450823854}
+  - component: {fileID: 68630188823562388}
   m_Layer: 10
   m_Name: BeltConver
   m_TagString: Untagged
@@ -3856,13 +3856,13 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4597325893627562}
-  - component: {fileID: 61215584572900500}
   - component: {fileID: 114362578215147544}
   - component: {fileID: 114787909453202994}
   - component: {fileID: 114525387036005856}
-  - component: {fileID: 114857624689897770}
   - component: {fileID: 114071785828757538}
   - component: {fileID: 114133901950281250}
+  - component: {fileID: 114549748012994968}
+  - component: {fileID: 68121153977919346}
   m_Layer: 10
   m_Name: BeltConver (1)
   m_TagString: Untagged
@@ -8666,31 +8666,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.87, y: 0.6}
   m_EdgeRadius: 0
---- !u!61 &61048456960956752
-BoxCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1464503252196354}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 6, y: 0.8}
-  m_EdgeRadius: 0
 --- !u!61 &61053740679854820
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -8865,31 +8840,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 0.4604363, y: 0.53025454}
-  m_EdgeRadius: 0
---- !u!61 &61215584572900500
-BoxCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1848547363976050}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 6.839139, y: 0.78986526}
   m_EdgeRadius: 0
 --- !u!61 &61222782409225434
 BoxCollider2D:
@@ -10191,6 +10141,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.4604363, y: 0.53025454}
   m_EdgeRadius: 0
+--- !u!68 &68121153977919346
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1848547363976050}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -2.57226, y: 0.31441498}
+  - {x: -2.13907, y: 0.3840917}
+  - {x: 2.1512818, y: 0.3844541}
+  - {x: 2.541861, y: 0.2902298}
+  - {x: 2.7595341, y: 0.0435346}
 --- !u!68 &68122232050965958
 EdgeCollider2D:
   m_ObjectHideFlags: 1
@@ -10463,6 +10433,26 @@ EdgeCollider2D:
   m_Points:
   - {x: -0.5, y: 0}
   - {x: 6.53, y: 0}
+--- !u!68 &68630188823562388
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1464503252196354}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -2.57226, y: 0.31441498}
+  - {x: -2.13907, y: 0.3840917}
+  - {x: 2.1512818, y: 0.3844541}
+  - {x: 2.541861, y: 0.2902298}
+  - {x: 2.7595341, y: 0.0435346}
 --- !u!68 &68630671418412232
 EdgeCollider2D:
   m_ObjectHideFlags: 1
@@ -11432,6 +11422,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_jumpPower
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -11440,17 +11431,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 12
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -11831,6 +11820,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_jumpPower
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -11839,17 +11829,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 9
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -12143,6 +12131,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_Size
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -12151,17 +12140,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -12172,6 +12159,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_Size.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -12180,17 +12168,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 6.839139
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -12201,6 +12187,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_Size.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -12209,17 +12196,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0.78986526
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -12239,6 +12224,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_Size
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -12247,17 +12233,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -12268,6 +12252,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_Size.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -12276,17 +12261,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 7
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -12297,6 +12280,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_Size.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -12305,17 +12289,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0.8
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -13254,6 +13236,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_moveMaxNum
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -13262,17 +13245,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0.05
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -13292,6 +13273,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalPosition
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -13300,17 +13282,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -13321,6 +13301,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -13329,17 +13310,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -13350,6 +13329,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -13358,17 +13338,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 1.8
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -13379,6 +13357,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -13387,17 +13366,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -13417,6 +13394,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalPosition
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -13425,17 +13403,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -13446,6 +13422,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -13454,17 +13431,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -13475,6 +13450,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -13483,17 +13459,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: -1.8
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -13504,6 +13478,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -13512,17 +13487,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -13542,6 +13515,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalRotation
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -13550,17 +13524,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -13571,6 +13543,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalRotation.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -13579,17 +13552,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -13600,6 +13571,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalRotation.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -13608,17 +13580,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -13629,6 +13599,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalRotation.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -13637,17 +13608,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: -0.7071068
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -13658,6 +13627,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalRotation.w
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -13666,17 +13636,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0.7071068
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -13696,6 +13664,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_Size
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -13704,17 +13673,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -13725,6 +13692,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_Size.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -13733,17 +13701,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 1
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -13754,6 +13720,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_Size.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -13762,17 +13729,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 4
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -34588,7 +34553,7 @@ MonoBehaviour:
   autoTileNames: []
   autoTileLinkMask: 
   autoTileData: []
-  showAutoTile: []
+  showAutoTile: 
   autoTileEdgeMode: 
   autoTileType: 
   pixelColliders: 0
@@ -34795,19 +34760,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _guid: d7aa454f-3d71-43c8-96c4-9724471bd550
---- !u!114 &114339237773188158
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1464503252196354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cbd482c4d92bf94baf0f0e016f7117e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_isPausing: 0
-  m_ignoreGameObjects: []
 --- !u!114 &114350050629988166
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -34834,6 +34786,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_Size
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -34842,17 +34795,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -34863,6 +34814,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_Size.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -34871,17 +34823,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 6
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -34892,6 +34842,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_Size.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -34900,17 +34851,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0.8
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -34930,6 +34879,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_Size
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -34938,17 +34888,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -34959,6 +34907,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_Size.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -34967,17 +34916,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 6
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -34988,6 +34935,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_Size.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -34996,17 +34944,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0.8026077
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -35169,6 +35115,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_jumpPower
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -35177,17 +35124,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 12
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -35488,13 +35433,16 @@ MonoBehaviour:
   m_obj_cameraTarget: {fileID: 0}
   m_str_cameraStatus:
   - cur_move:
+      serializedVersion: 2
       m_Curve:
-      - time: 0
+      - serializedVersion: 2
+        time: 0
         value: 0
         inSlope: 1
         outSlope: 1
         tangentMode: 34
-      - time: 1
+      - serializedVersion: 2
+        time: 1
         value: 1
         inSlope: 1
         outSlope: 1
@@ -35508,13 +35456,16 @@ MonoBehaviour:
     num_scale: 0
     flg_isPlayerActive: 0
   - cur_move:
+      serializedVersion: 2
       m_Curve:
-      - time: 0
+      - serializedVersion: 2
+        time: 0
         value: 0
         inSlope: 1
         outSlope: 1
         tangentMode: 34
-      - time: 1
+      - serializedVersion: 2
+        time: 1
         value: 1
         inSlope: 1
         outSlope: 1
@@ -35528,13 +35479,16 @@ MonoBehaviour:
     num_scale: 4
     flg_isPlayerActive: 0
   - cur_move:
+      serializedVersion: 2
       m_Curve:
-      - time: 0
+      - serializedVersion: 2
+        time: 0
         value: 0
         inSlope: 1
         outSlope: 1
         tangentMode: 34
-      - time: 1
+      - serializedVersion: 2
+        time: 1
         value: 1
         inSlope: 1
         outSlope: 1
@@ -35548,13 +35502,16 @@ MonoBehaviour:
     num_scale: 4.7
     flg_isPlayerActive: 0
   - cur_move:
+      serializedVersion: 2
       m_Curve:
-      - time: 0
+      - serializedVersion: 2
+        time: 0
         value: 0
         inSlope: 1
         outSlope: 1
         tangentMode: 34
-      - time: 1
+      - serializedVersion: 2
+        time: 1
         value: 1
         inSlope: 1
         outSlope: 1
@@ -35568,13 +35525,16 @@ MonoBehaviour:
     num_scale: 3.5
     flg_isPlayerActive: 0
   - cur_move:
+      serializedVersion: 2
       m_Curve:
-      - time: 0
+      - serializedVersion: 2
+        time: 0
         value: 0
         inSlope: 1
         outSlope: 1
         tangentMode: 34
-      - time: 1
+      - serializedVersion: 2
+        time: 1
         value: 1
         inSlope: 1
         outSlope: 1
@@ -35588,13 +35548,16 @@ MonoBehaviour:
     num_scale: 3.5
     flg_isPlayerActive: 0
   - cur_move:
+      serializedVersion: 2
       m_Curve:
-      - time: 0
+      - serializedVersion: 2
+        time: 0
         value: 0
         inSlope: 1
         outSlope: 1
         tangentMode: 34
-      - time: 1
+      - serializedVersion: 2
+        time: 1
         value: 1
         inSlope: 1
         outSlope: 1
@@ -35608,13 +35571,16 @@ MonoBehaviour:
     num_scale: 3.5
     flg_isPlayerActive: 0
   - cur_move:
+      serializedVersion: 2
       m_Curve:
-      - time: 0
+      - serializedVersion: 2
+        time: 0
         value: 0
         inSlope: 1
         outSlope: 1
         tangentMode: 34
-      - time: 1
+      - serializedVersion: 2
+        time: 1
         value: 1
         inSlope: 1
         outSlope: 1
@@ -35628,13 +35594,16 @@ MonoBehaviour:
     num_scale: 4
     flg_isPlayerActive: 0
   - cur_move:
+      serializedVersion: 2
       m_Curve:
-      - time: 0
+      - serializedVersion: 2
+        time: 0
         value: 0
         inSlope: 1
         outSlope: 1
         tangentMode: 34
-      - time: 1
+      - serializedVersion: 2
+        time: 1
         value: 1
         inSlope: 1
         outSlope: 1
@@ -35648,13 +35617,16 @@ MonoBehaviour:
     num_scale: 5
     flg_isPlayerActive: 0
   - cur_move:
+      serializedVersion: 2
       m_Curve:
-      - time: 0
+      - serializedVersion: 2
+        time: 0
         value: 0
         inSlope: 1
         outSlope: 1
         tangentMode: 34
-      - time: 1
+      - serializedVersion: 2
+        time: 1
         value: 1
         inSlope: 1
         outSlope: 1
@@ -35668,13 +35640,16 @@ MonoBehaviour:
     num_scale: 3.5
     flg_isPlayerActive: 0
   - cur_move:
+      serializedVersion: 2
       m_Curve:
-      - time: 0
+      - serializedVersion: 2
+        time: 0
         value: 0
         inSlope: 1
         outSlope: 1
         tangentMode: 34
-      - time: 1
+      - serializedVersion: 2
+        time: 1
         value: 1
         inSlope: 1
         outSlope: 1
@@ -35688,13 +35663,16 @@ MonoBehaviour:
     num_scale: 4
     flg_isPlayerActive: 0
   - cur_move:
+      serializedVersion: 2
       m_Curve:
-      - time: 0
+      - serializedVersion: 2
+        time: 0
         value: 0
         inSlope: 1
         outSlope: 1
         tangentMode: 34
-      - time: 1
+      - serializedVersion: 2
+        time: 1
         value: 1
         inSlope: 1
         outSlope: 1
@@ -35708,13 +35686,16 @@ MonoBehaviour:
     num_scale: 5
     flg_isPlayerActive: 0
   - cur_move:
+      serializedVersion: 2
       m_Curve:
-      - time: 0
+      - serializedVersion: 2
+        time: 0
         value: 0
         inSlope: 1
         outSlope: 1
         tangentMode: 34
-      - time: 1
+      - serializedVersion: 2
+        time: 1
         value: 1
         inSlope: 1
         outSlope: 1
@@ -35728,13 +35709,16 @@ MonoBehaviour:
     num_scale: 3
     flg_isPlayerActive: 0
   - cur_move:
+      serializedVersion: 2
       m_Curve:
-      - time: 0
+      - serializedVersion: 2
+        time: 0
         value: 0
         inSlope: 1
         outSlope: 1
         tangentMode: 34
-      - time: 1
+      - serializedVersion: 2
+        time: 1
         value: 1
         inSlope: 1
         outSlope: 1
@@ -35748,13 +35732,16 @@ MonoBehaviour:
     num_scale: 4.5
     flg_isPlayerActive: 0
   - cur_move:
+      serializedVersion: 2
       m_Curve:
-      - time: 0
+      - serializedVersion: 2
+        time: 0
         value: 0
         inSlope: 1
         outSlope: 1
         tangentMode: 34
-      - time: 1
+      - serializedVersion: 2
+        time: 1
         value: 1
         inSlope: 1
         outSlope: 1
@@ -35793,6 +35780,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_moveMaxNum
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -35801,17 +35789,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0.05
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -35831,6 +35817,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalRotation
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -35839,17 +35826,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -35860,6 +35845,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalRotation.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -35868,17 +35854,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -35889,6 +35873,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalRotation.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -35897,17 +35882,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -35918,6 +35901,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalRotation.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -35926,17 +35910,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -35947,6 +35929,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalRotation.w
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -35955,17 +35938,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 1
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -35985,6 +35966,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalPosition
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -35993,17 +35975,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -36014,6 +35994,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -36022,17 +36003,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0.00000023841858
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -36043,6 +36022,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -36051,17 +36031,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 1.1999996
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -36072,6 +36050,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -36080,17 +36059,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -36110,6 +36087,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalPosition
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -36118,17 +36096,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -36139,6 +36115,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -36147,17 +36124,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0.00000023841858
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -36168,6 +36143,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -36176,17 +36152,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: -1.2000002
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -36197,6 +36171,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -36205,17 +36180,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -36235,6 +36208,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_Size
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -36243,17 +36217,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -36264,6 +36236,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_Size.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -36272,17 +36245,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 1
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -36293,6 +36264,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_Size.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -36301,17 +36273,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 2.8
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -36435,6 +36405,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_roomId: 0
   m_prevRoomId: 0
+--- !u!114 &114440522450823854
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1464503252196354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e77a9e06d5c4fa24c8b5c5e89c985c54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_moveSpeed: -0.04
 --- !u!114 &114444697862753862
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -36511,6 +36493,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_scr_shutter
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -36519,17 +36502,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 114935801114420870}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -36549,6 +36530,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalPosition
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -36557,17 +36539,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -36578,6 +36558,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -36586,17 +36567,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: -2.36
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -36607,6 +36586,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -36615,17 +36595,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: -2.77
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -36636,6 +36614,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -36644,17 +36623,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -36674,6 +36651,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalPosition
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -36682,17 +36660,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -36703,6 +36679,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -36711,17 +36688,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 1.17
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -36732,6 +36707,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -36740,17 +36716,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0.29
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -36761,6 +36735,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -36769,17 +36744,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -36799,6 +36772,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalPosition
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -36807,17 +36781,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -36828,6 +36800,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -36836,17 +36809,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: -0.8
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -36857,6 +36828,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -36865,17 +36837,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 3.16
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -36886,6 +36856,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -36894,17 +36865,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -36924,6 +36893,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalPosition
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -36932,17 +36902,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -36953,6 +36921,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -36961,17 +36930,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 3.66
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -36982,6 +36949,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -36990,17 +36958,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 1.4
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -37011,6 +36977,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -37019,17 +36986,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -37159,6 +37124,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_jumpPower
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -37167,17 +37133,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 10
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -37333,6 +37297,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_scr_shutter
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -37341,17 +37306,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 114691431040913288}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -57865,7 +57828,7 @@ MonoBehaviour:
   autoTileNames: []
   autoTileLinkMask: 
   autoTileData: []
-  showAutoTile: []
+  showAutoTile: 
   autoTileEdgeMode: 
   autoTileType: 
   pixelColliders: 0
@@ -58300,6 +58263,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _guid: 9df4a061-be1e-474b-846b-17c34f627904
+--- !u!114 &114549748012994968
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1848547363976050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e77a9e06d5c4fa24c8b5c5e89c985c54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_moveSpeed: -0.04
 --- !u!114 &114549811547699128
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -58553,6 +58528,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_scr_shutter
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -58561,17 +58537,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 114798846077450182}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -58591,6 +58565,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalPosition
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -58599,17 +58574,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -58620,6 +58593,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -58628,17 +58602,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: -1.5
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -58649,6 +58621,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -58657,17 +58630,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -58678,6 +58649,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -58686,17 +58658,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -58716,6 +58686,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalPosition
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -58724,17 +58695,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -58745,6 +58714,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -58753,17 +58723,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: -1.5
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -58774,6 +58742,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -58782,17 +58751,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 1.5
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -58803,6 +58770,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -58811,17 +58779,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -58841,6 +58807,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalPosition
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -58849,17 +58816,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -58870,6 +58835,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -58878,17 +58844,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 1.5
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -58899,6 +58863,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -58907,17 +58872,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 1.5
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -58928,6 +58891,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -58936,17 +58900,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -58966,6 +58928,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalPosition
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -58974,17 +58937,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -58995,6 +58956,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -59003,17 +58965,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 1.5
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -59024,6 +58984,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -59032,17 +58993,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -59053,6 +59012,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -59061,17 +59021,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -59115,6 +59073,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_num_cameraMoveId
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -59123,17 +59082,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 23
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -59144,6 +59101,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_num_attentionTime
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -59152,17 +59110,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 2
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -59173,6 +59129,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_num_returnID
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -59181,17 +59138,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 7
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -59642,6 +59597,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_num_cameraMoveId
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -59650,17 +59606,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 24
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -59671,6 +59625,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_num_attentionTime
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -59679,17 +59634,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 2
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -59700,6 +59653,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_num_returnID
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -59708,17 +59662,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 12
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -59929,6 +59881,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_scr_shutter
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -59937,17 +59890,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 114489629099492226}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -59967,6 +59918,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalPosition
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -59975,17 +59927,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -59996,6 +59946,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -60004,17 +59955,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: -2
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -60025,6 +59974,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -60033,17 +59983,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 1
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -60054,6 +60002,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -60062,17 +60011,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -60092,6 +60039,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalPosition
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -60100,17 +60048,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -60121,6 +60067,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -60129,17 +60076,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: -0.5
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -60150,6 +60095,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -60158,17 +60104,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -60179,6 +60123,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -60187,17 +60132,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -60217,6 +60160,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalPosition
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -60225,17 +60169,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -60246,6 +60188,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -60254,17 +60197,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: -3.5
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -60275,6 +60216,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -60283,17 +60225,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -60304,6 +60244,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -60312,17 +60253,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -60342,6 +60281,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalPosition
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -60350,17 +60290,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -60371,6 +60309,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -60379,17 +60318,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: -2
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -60400,6 +60337,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -60408,17 +60346,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: -1.5
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -60429,6 +60365,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -60437,17 +60374,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -61125,6 +61060,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_jumpPower
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -61133,17 +61069,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 10.5
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -61297,6 +61231,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_moveMaxNum
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -61305,17 +61240,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0.05
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -61335,6 +61268,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalRotation
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -61343,17 +61277,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -61364,6 +61296,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalRotation.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -61372,17 +61305,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -61393,6 +61324,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalRotation.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -61401,17 +61333,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -61422,6 +61352,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalRotation.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -61430,17 +61361,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -61451,6 +61380,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalRotation.w
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -61459,17 +61389,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 1
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -61489,6 +61417,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalPosition
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -61497,17 +61426,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -61518,6 +61445,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -61526,17 +61454,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -61547,6 +61473,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -61555,17 +61482,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0.80000055
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -61576,6 +61501,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -61584,17 +61510,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -61614,6 +61538,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalPosition
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -61622,17 +61547,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -61643,6 +61566,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -61651,17 +61575,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -61672,6 +61594,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -61680,17 +61603,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: -0.7999999
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -61701,6 +61622,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -61709,17 +61631,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -61739,6 +61659,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_Size
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -61747,17 +61668,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -61768,6 +61687,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_Size.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -61776,17 +61696,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 1
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -61797,6 +61715,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_Size.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -61805,17 +61724,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 2
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -82487,7 +82404,7 @@ MonoBehaviour:
   autoTileNames: []
   autoTileLinkMask: 
   autoTileData: []
-  showAutoTile: []
+  showAutoTile: 
   autoTileEdgeMode: 
   autoTileType: 
   pixelColliders: 0
@@ -82526,6 +82443,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_num_cameraMoveId
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -82534,17 +82452,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 20
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -82555,6 +82471,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_num_attentionTime
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -82563,17 +82480,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 2
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -82584,6 +82499,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_num_returnID
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -82592,17 +82508,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 3
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -103205,7 +103119,7 @@ MonoBehaviour:
   autoTileNames: []
   autoTileLinkMask: 
   autoTileData: []
-  showAutoTile: []
+  showAutoTile: 
   autoTileEdgeMode: 
   autoTileType: 
   pixelColliders: 0
@@ -103270,19 +103184,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_hitNumber: 2
   hited: 0
---- !u!114 &114857624689897770
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1848547363976050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cbd482c4d92bf94baf0f0e016f7117e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_isPausing: 0
-  m_ignoreGameObjects: []
 --- !u!114 &114864237260761980
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -123969,7 +123870,7 @@ MonoBehaviour:
   autoTileNames: []
   autoTileLinkMask: 
   autoTileData: []
-  showAutoTile: []
+  showAutoTile: 
   autoTileEdgeMode: 
   autoTileType: 
   pixelColliders: 0
@@ -124042,6 +123943,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_num_cameraMoveId
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124050,17 +123952,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 21
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -124071,6 +123971,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_num_attentionTime
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124079,17 +123980,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 2
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -124100,6 +123999,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_num_returnID
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124108,17 +124008,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 4
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -124183,6 +124081,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_scr_shutter
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124191,17 +124090,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 114168089545161344}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -124221,6 +124118,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalPosition
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124229,17 +124127,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -124250,6 +124146,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124258,17 +124155,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: -0.75
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -124279,6 +124174,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124287,17 +124183,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 1.34
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -124308,6 +124202,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124316,17 +124211,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -124346,6 +124239,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalPosition
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124354,17 +124248,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -124375,6 +124267,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124383,17 +124276,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0.1
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -124404,6 +124295,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124412,17 +124304,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 2.06
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -124433,6 +124323,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124441,17 +124332,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -124471,6 +124360,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalPosition
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124479,17 +124369,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -124500,6 +124388,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124508,17 +124397,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0.86
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -124529,6 +124416,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124537,17 +124425,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 2.81
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -124558,6 +124444,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124566,17 +124453,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -124596,6 +124481,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalPosition
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124604,17 +124490,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -124625,6 +124509,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124633,17 +124518,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 1.79
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -124654,6 +124537,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124662,17 +124546,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 1.15
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -124683,6 +124565,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124691,17 +124574,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -124733,6 +124614,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_scr_shutter
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124741,17 +124623,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 114023455443730874}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -124771,6 +124651,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalPosition
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124779,17 +124660,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -124800,6 +124679,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124808,17 +124688,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: -2.25
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -124829,6 +124707,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124837,17 +124716,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 2.54
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -124858,6 +124735,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124866,17 +124744,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -124896,6 +124772,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalPosition
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124904,17 +124781,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -124925,6 +124800,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124933,17 +124809,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: -2.25
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -124954,6 +124828,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124962,17 +124837,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 1.5
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -124983,6 +124856,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -124991,17 +124865,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -125021,6 +124893,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalPosition
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -125029,17 +124902,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -125050,6 +124921,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -125058,17 +124930,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 1.7
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -125079,6 +124949,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -125087,17 +124958,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 1.48
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -125108,6 +124977,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -125116,17 +124986,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -125146,6 +125014,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_LocalPosition
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -125154,17 +125023,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -125175,6 +125042,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.x
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -125183,17 +125051,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0.7
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -125204,6 +125070,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.y
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -125212,17 +125079,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 2.61
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -125233,6 +125098,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_LocalPosition.z
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -125241,17 +125107,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -125343,6 +125207,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_jumpPower
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -125351,17 +125216,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 7
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -125517,6 +125380,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_num_cameraMoveId
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -125525,17 +125389,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 22
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -125546,6 +125408,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_num_attentionTime
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -125554,17 +125417,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 2
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -125575,6 +125436,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_num_returnID
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -125583,17 +125445,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 5
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -125678,6 +125538,7 @@ MonoBehaviour:
       _overrideProperties:
       - _path: m_num_cameraMoveId
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -125686,17 +125547,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 19
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -125707,6 +125566,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_num_attentionTime
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -125715,17 +125575,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 2
         _intValue: 0
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -125736,6 +125594,7 @@ MonoBehaviour:
         _vector4Value: {x: 0, y: 0, z: 0, w: 0}
       - _path: m_num_returnID
         _animationCurveValue:
+          serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 0
           m_PostInfinity: 0
@@ -125744,17 +125603,15 @@ MonoBehaviour:
         _boundsValue:
           m_Center: {x: 0, y: 0, z: 0}
           m_Extent: {x: 0, y: 0, z: 0}
-        _colorValue:
-          r: 0
-          g: 0
-          b: 0
-          a: 0
+        _colorValue: {r: 0, g: 0, b: 0, a: 0}
         _doubleValue: 0
         _floatValue: 0
         _intValue: 2
+        _longValue: 0
         _objectReferenceValue: {fileID: 0}
         _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
         _rectValue:
+          serializedVersion: 2
           x: 0
           y: 0
           width: 0
@@ -126552,7 +126409,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
 --- !u!212 &212093929721916484
 SpriteRenderer:
@@ -126728,7 +126585,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
 --- !u!212 &212105099663349228
 SpriteRenderer:
@@ -126816,7 +126673,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
 --- !u!212 &212115278961979248
 SpriteRenderer:
@@ -127080,7 +126937,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
 --- !u!212 &212152827345490588
 SpriteRenderer:
@@ -127388,7 +127245,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
 --- !u!212 &212201956512754792
 SpriteRenderer:
@@ -129764,7 +129621,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
 --- !u!212 &212711894768794866
 SpriteRenderer:
@@ -130116,7 +129973,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
 --- !u!212 &212791018225023214
 SpriteRenderer:
@@ -130732,7 +130589,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
 --- !u!212 &212943198745222582
 SpriteRenderer:
