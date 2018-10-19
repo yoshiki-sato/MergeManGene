@@ -76,7 +76,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &114008317808434974
 MonoBehaviour:
-  m_ObjectHideFlags: 11
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1189065890235456}
@@ -88,7 +88,7 @@ MonoBehaviour:
   _guid: e81ccfe1-7477-4878-8d89-40d270587b58
 --- !u!114 &114214714019289420
 MonoBehaviour:
-  m_ObjectHideFlags: 11
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1189065890235456}
@@ -254,7 +254,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 52c253f04728b704aa6588576087809e, type: 2}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: edda064ccdc6f1449b64f3e4a6f5a6d3, type: 2}
+    m_Data: {fileID: 11400000, guid: 2904b4564366cdd41b21894d04f2676d, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: ae80edeb29b79104fa5a2517b84ce2c2, type: 2}
   - m_RefCount: 1
@@ -269,7 +269,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 21300000, guid: 09dbf0bf9c230f545a4218d7b6f7592c, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 21300000, guid: dea3fb2a269d12849a45e3852270978d, type: 3}
+    m_Data: {fileID: 21301474, guid: 32263180f31a1c249bf3746a3041f54f, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300000, guid: 9b5b050ba0ff5f0428da4a18a4da5707, type: 3}
   - m_RefCount: 1

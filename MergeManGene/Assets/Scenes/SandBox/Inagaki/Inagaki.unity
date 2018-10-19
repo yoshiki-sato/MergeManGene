@@ -23302,7 +23302,7 @@ MonoBehaviour:
       m_RotationOrder: 0
     num_complateFrame: 60
     pos_target: {fileID: 0}
-    vec_target: {x: 0, y: 0}
+    vec_target: {x: 3.75, y: 0}
     num_scale: 5
     flg_isPlayerActive: 1
   - cur_move:

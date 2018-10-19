@@ -134,7 +134,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &114135402172170038
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 11
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1889410716153684}
@@ -151,7 +151,7 @@ MonoBehaviour:
   _assetGuid: 52175054b9b1ffe478cab03479a56792
 --- !u!114 &114150518765465948
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 11
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1889410716153684}
@@ -223,7 +223,7 @@ MonoBehaviour:
   - {fileID: 0}
 --- !u!114 &114223512431613220
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 11
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1889410716153684}
@@ -235,7 +235,7 @@ MonoBehaviour:
   _guid: 58b9c0a6-d0a2-4026-8a0b-27d4f94d8744
 --- !u!114 &114234723367766646
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 11
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1711260971447926}
@@ -360,10 +360,10 @@ MonoBehaviour:
   sendMessageTarget: {fileID: 0}
   useUnityEvents: 0
   layers:
-  - {fileID: 114250971594687314}
+  - {fileID: 0}
 --- !u!114 &114520502352593140
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 11
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1711260971447926}
@@ -560,7 +560,7 @@ MonoBehaviour:
   combinePointersInterval: 0.3
 --- !u!114 &114820791298292196
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 11
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1160424744681198}
@@ -572,7 +572,7 @@ MonoBehaviour:
   _guid: 01a73309-c452-4593-9760-ce850acb683e
 --- !u!114 &114852960781246448
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 11
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1426697662413544}
